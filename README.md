@@ -1,7 +1,5 @@
 # YOLO
 Autonomous driving - Car detection
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ## Object detection using  YOLO model.
  Many of the ideas in this notebook are described in the two YOLO papers: Redmon et al., 2016 (https://arxiv.org/abs/1506.02640) and Redmon and Farhadi, 2016 (https://arxiv.org/abs/1612.08242).
@@ -23,7 +21,4 @@ Model details
 First things to know:
 - The **input** is a batch of images of shape (m, 608, 608, 3)
 - The **output** is a list of bounding boxes along with the recognized classes. Each bounding box is represented by 6 numbers $(p_c, b_x, b_y, b_h, b_w, c)$ as explained above. If you expand $c$ into an 80-dimensional vector, each bounding box is then represented by 85 numbers. 
-=======
->>>>>>> aa08a62d867ab44d92341a8cf9226ae74377994b
-=======
->>>>>>> aa08a62d867ab44d92341a8cf9226ae74377994b
+
